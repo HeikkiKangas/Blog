@@ -1,0 +1,3 @@
+[submodule "Blog-Backend"]
+	path = Blog-Backend
+	url = https://github.com/HeikkiKangas/Blog-Backend.git
