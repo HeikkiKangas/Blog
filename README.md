@@ -14,25 +14,6 @@ Projectwork for 'DynamicWebApp 2020' -course.
    $ cd < Repository path >
    $ ./package.sh
    ```
-   
-   If you want to create a new release to GitHub, you can use following parameters:
-   ```
-   '-r' to create release.
-   OR
-   '-pre' to create pre-release.
-   AND
-    '-v=< version >'
-    AND
-    '-m="<release message>"'
-    
-   e.g.
-    ./package.sh -pre -v=0.1 -m="First pre-release."
-    OR
-    ./package.sh -r -v=1.0 -m="First release."
-   ```
-
- - ### Windows
-   Batch translation of package.sh is under consideration, not a priority.
 
 ## How to run
  - Launch `blog-release.jar` by double-clicking the file or running the following command in the same directory with the file.
