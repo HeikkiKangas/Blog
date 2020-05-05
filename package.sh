@@ -46,11 +46,11 @@ ZipSrc () {
 main () {
     cd Blog-Frontend && \
     UpdateRepository && \
-    ZipSrc 'front' && \
+#    ZipSrc 'front' && \
 
     cd ../Blog-Backend && \
     UpdateRepository && \
-    ZipSrc 'back' && \
+#    ZipSrc 'back' && \
 
     mvn clean package "-Dversion=release" && \
 
