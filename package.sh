@@ -48,6 +48,7 @@ main () {
     cd Blog-Frontend && \
     UpdateRepository && \
     ZipSrc 'front' && \
+    npm install && \
     npm run build && \
 
     cd ../Blog-Backend && \
