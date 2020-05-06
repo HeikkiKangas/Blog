@@ -44,6 +44,7 @@ ZipSrc () {
 }
 
 main () {
+    PROJECT_ROOT=$(pwd)
     cd Blog-Frontend && \
     UpdateRepository && \
     ZipSrc 'front' && \
