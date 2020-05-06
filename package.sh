@@ -55,6 +55,7 @@ main () {
 
     ./mvnw clean package "-Dversion=release" && \
 
+    echo "$PROJECT_ROOT/blog-release.jar" && \
     cp "$(find . -name "blog*.jar" -type f)" "$PROJECT_ROOT/blog-release.jar" && \
     PrintGreen "\nProject successfully packaged.\n" && \
     PrintGreen "\nGenerated files:\n" && \
