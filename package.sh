@@ -52,7 +52,7 @@ main () {
     UpdateRepository && \
     ZipSrc 'back' && \
 
-    mvnw clean package "-Dversion=release" && \
+    ./mvnw clean package "-Dversion=release" && \
 
     cp "$(find . -name "blog*.jar" -type f)" "$PROJECT_ROOT/blog-release.jar" && \
     PrintGreen "\nProject successfully packaged.\n" && \
